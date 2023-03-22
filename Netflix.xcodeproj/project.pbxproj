@@ -18,6 +18,8 @@
 		1E78974829BD958900D97B07 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78974729BD958900D97B07 /* DownloadsViewController.swift */; };
 		1E94A43B29BE94FD005141CA /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E94A43A29BE94FD005141CA /* CollectionViewTableViewCell.swift */; };
 		1E9C8EE929C91A53000B1B24 /* NetflixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9C8EE829C91A53000B1B24 /* NetflixTests.swift */; };
+		1EB9479B29CB83B300B2FE6D /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9479A29CB83B300B2FE6D /* TitleTableViewCell.swift */; };
+		1EB9479D29CB897B00B2FE6D /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9479C29CB897B00B2FE6D /* TitleViewModel.swift */; };
 		1ED4245E29BEDBC400EF44BC /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED4245D29BEDBC400EF44BC /* HeroHeaderUIView.swift */; };
 		1EDF7C8929C019A700F8F2C3 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDF7C8829C019A700F8F2C3 /* APICaller.swift */; };
 		1EDF7C8D29C01D7D00F8F2C3 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDF7C8C29C01D7D00F8F2C3 /* Title.swift */; };
@@ -52,6 +54,8 @@
 		1E94A43A29BE94FD005141CA /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		1E9C8EE629C91A53000B1B24 /* NetflixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetflixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E9C8EE829C91A53000B1B24 /* NetflixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixTests.swift; sourceTree = "<group>"; };
+		1EB9479A29CB83B300B2FE6D /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		1EB9479C29CB897B00B2FE6D /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 		1ED4245D29BEDBC400EF44BC /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		1EDF7C8829C019A700F8F2C3 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		1EDF7C8C29C01D7D00F8F2C3 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
@@ -130,6 +134,7 @@
 		1E94A43629BE9494005141CA /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				1EB9479C29CB897B00B2FE6D /* TitleViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 				1E94A43A29BE94FD005141CA /* CollectionViewTableViewCell.swift */,
 				1ED4245D29BEDBC400EF44BC /* HeroHeaderUIView.swift */,
 				1EE252AD29C8BB0D00FCC167 /* TitleCollectionViewCell.swift */,
+				1EB9479A29CB83B300B2FE6D /* TitleTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -288,6 +294,7 @@
 				1E78972F29BD918400D97B07 /* MainTabBarViewController.swift in Sources */,
 				1E94A43B29BE94FD005141CA /* CollectionViewTableViewCell.swift in Sources */,
 				1EDF7C8929C019A700F8F2C3 /* APICaller.swift in Sources */,
+				1EB9479B29CB83B300B2FE6D /* TitleTableViewCell.swift in Sources */,
 				1ED4245E29BEDBC400EF44BC /* HeroHeaderUIView.swift in Sources */,
 				1E78974829BD958900D97B07 /* DownloadsViewController.swift in Sources */,
 				1E78972B29BD918400D97B07 /* AppDelegate.swift in Sources */,
@@ -296,6 +303,7 @@
 				1E78974429BD950000D97B07 /* UpcomingViewController.swift in Sources */,
 				1EDF7C8D29C01D7D00F8F2C3 /* Title.swift in Sources */,
 				1E78974229BD94B800D97B07 /* HomeViewController.swift in Sources */,
+				1EB9479D29CB897B00B2FE6D /* TitleViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
