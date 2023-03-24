@@ -24,7 +24,7 @@ class TitleTableViewCell: UITableViewCell {
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
-    
+    //probamos
     
     private let titlesPosterUIImageView: UIImageView = {
         let imageView = UIImageView()
